@@ -29,7 +29,7 @@ void input()
 
 }
 
-void LinearSearch() 
+void LinearSearch()
 {
     char ch;
     int ctr; // Number of comparisons
@@ -52,7 +52,7 @@ void LinearSearch()
                 break;
             }
             i++; // step 4
-}
+        }
 
         if (i == n) // step 5
             cout << "\n" << item << " not found in the array\n";
@@ -62,7 +62,7 @@ void LinearSearch()
         cin >> ch;
 
     } while ((ch == 'y') || (ch == 'Y'));
-
+}
     void display()
     {
         cout << "Array elements are: ";
